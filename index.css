@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 69.4%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding-top: 10px;
+  background-color: #311d5e;
+  color: white;
+  padding-bottom: 10px;
+}
+
+nav .content {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  font: 600 13px/25px "Roboto", sans-serif;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.all-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.nav-links {
+  margin-right: 10px;
+}
+
+.img img {
+  width: 120px;
+  height: 50px;
+  object-fit: contain;
+  align-items: flex-start;
+}
+
+nav .img {
+  width: 10%;
+}
+
+.nav-links:hover {
+  color: #00e0d0;
+  cursor: pointer;
+}
+
+header {
+  height: 100%;
+}
+
+header img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+header {
+  background-image: url("background.png");
+}
+
+header .gradient {
+  object-fit: contain;
+  z-index: -1;
+  height: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(52, 26, 108, 0.92),
+      rgba(36, 6, 39, 0.82)
+    ),
+    url("background.png");
+  object-fit: cover;
+  background-size: cover;
+}
+
+header .content {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100%;
+  justify-content: center;
+}
+
+.header {
+  font: 600 32px/31px "PlayfairDisplay", sans-serif;
+  color: white;
+  margin-bottom: 52px;
+  font-family: "Playfair Display", serif;
+}
+
+.text-ipsum {
+  font: 300 14px/24px "Roboto", sans-serif;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.button-learn-more {
+  border: solid #00e0d0;
+  border-radius: 3px;
+  padding: 15px;
+  color: #00e0d0;
+  font: 300 16px "Hammersmith", sans-serif;
+  box-sizing: content-box;
+}
+
+.button-learn-more:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #00e0d0;
+}
+
+.four-dots {
+  bottom: 0;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  width: 70px;
+  position: absolute;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 1px;
+}
+
+.dot {
+  content: "";
+  border: #00e0d0 solid;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+}
+
+.dot:hover {
+  background-color: #00e0d0;
+  cursor: pointer;
+}
